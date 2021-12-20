@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+body {
+  background-color: rgb(75, 71, 71);
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.firsthead {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.head-btn {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+  border-color: none;
+}
+.head {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150px;
+  border-bottom: 7px solid white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+.secret-number {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 190px;
+  width: 190px;
+  background-color: white;
+  text-align: center;
+  font-size: 5rem;
+  margin: 0;
+  color: rgb(75, 71, 71);
+}
+
+.parent-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  border-bottom: 7px solid white;
+  flex-wrap: wrap;
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 40%;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: left;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 40%;
+  color: white;
+  padding-left: 100px;
+}
+
+.input-no {
+  height: 100px;
+  width: 170px;
+  text-align: center;
+  font-size: 60px;
+  margin: 20px;
+  background-color: white;
+  border: 3px solid white;
+  color: rgb(75, 71, 71);
+}
+
+.button-check {
+  height: 50px;
+  width: 170px;
+  font-size: 20px;
+  align-content: center;
+}
